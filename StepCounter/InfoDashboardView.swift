@@ -48,7 +48,7 @@ struct DataItemView: View {
                 .shadow(color: dataItem.imageColor.opacity(0.5), radius: 10, x: 4, y: 24)
             
             Text(dataItem.value)
-                .font(.system(size: 36))
+                .font(.system(size: 36, design: .monospaced))
                 .fixedSize()
                 .frame(width: 60)
                 .padding(.top, 20)
